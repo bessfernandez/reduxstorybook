@@ -5,7 +5,7 @@ import * as React from 'react';
  */
 const SWYKComponent: React.FunctionComponent = ({ children }) => (
   <div>
-    <h3>SWYK specific items</h3>
+    <h3>SWYK quiz specific items</h3>
     {children}
   </div>
 );
