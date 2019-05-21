@@ -7,7 +7,7 @@ const routes = (
   <Switch>
     <Route exact path="/" component={Root} />
     <Route path="/:quizType" component={Root} />
-    <Route component={() => <h1>404 dude</h1>} />
+    <Route component={() => <h1>404 duders</h1>} />
   </Switch>
 );
 
