@@ -1,5 +1,5 @@
-# netlifyfun
-Fun Fun Fun With Netlify. Sample React / Redux / TS / Storybook app
+# Test app with Redux / TS / Storybook
+Fun Fun Fun sample app with Redux / TS / Storybook.May be converted into a boilerplate of sorts.. 
 
 ## Tech Stack
 - React
