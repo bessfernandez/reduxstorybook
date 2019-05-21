@@ -1,5 +1,5 @@
 # Sample app with Redux / TS / Storybook
-Fun Fun Fun sample app with Redux / TS / Storybook.May be converted into a boilerplate of sorts.. Mostly just an experiment of stacks I want to play with.
+Fun Fun Fun sample app with Redux / TS / Storybook. May be converted into a boilerplate of sorts.. Mostly just an experiment of stacks I want to play with.
 
 
 ## Tech Stack
