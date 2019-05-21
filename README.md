@@ -1,5 +1,6 @@
-# Test app with Redux / TS / Storybook
-Fun Fun Fun sample app with Redux / TS / Storybook.May be converted into a boilerplate of sorts.. 
+# Sample app with Redux / TS / Storybook
+Fun Fun Fun sample app with Redux / TS / Storybook.May be converted into a boilerplate of sorts.. Mostly just an experiment of stacks I want to play with.
+
 
 ## Tech Stack
 - React
@@ -9,6 +10,9 @@ Fun Fun Fun sample app with Redux / TS / Storybook.May be converted into a boile
 - ESLint
 - Prettier
 - Jest
+
+## Up Next
+Serve it up all static like. Netlify?
 
 ## Running locally
 
@@ -46,6 +50,6 @@ IN PROGRESS
 - [Redux test writing guidelines](https://github.com/reduxjs/redux/blob/master/docs/recipes/WritingTests.md#connected-components)
 
 ## Deployment
-
+TBD based on BE integration chosen..
 
 
