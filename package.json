@@ -1,7 +1,7 @@
 {
-  "name": "netlifyfun",
+  "name": "redux-storybook-boilerplate",
   "version": "1.0.0",
-  "description": "Sample React / Redux / TS / Storybook App",
+  "description": "React / Redux / TS / Storybook App to be used as a boilerplate",
   "main": "server.js",
   "scripts": {
     "build": "./node_modules/.bin/webpack",
@@ -14,15 +14,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:bessfernandez/netlifyfun.git"
+    "url": "git@github.com:bessfernandez/reduxstorybook.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/bessfernandez/netlifyfun/issues"
+    "url": "https://github.com/bessfernandez/reduxstorybook/issues"
   },
-  "homepage": "https://github.com/bessfernandez/netlifyfun#readme",
+  "homepage": "https://github.com/bessfernandez/reduxstorybook#readme",
   "dependencies": {
     "axios": "^0.18.0",
     "classnames": "^2.2.6",
