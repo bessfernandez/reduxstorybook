@@ -1,7 +1,7 @@
 # Sample app with Redux / TS / Storybook
 Fun Fun Fun sample app with Redux / TS / Storybook. May be converted into a boilerplate of sorts.. Mostly just an experiment of stacks I want to play with.
 
-This is currently demonstrating an integration with a third party tool - Learnosity. Will likely move away from this as sample app is more of a thing.. 
+This is currently demonstrating an integration with a third party tool - Learnosity. For now without the third party integration, the only page demonstrating any code is the root which will show a Storybook component. Will likely move away from this as sample app is more of a thing.. 
 
 
 ## Tech Stack
@@ -9,12 +9,19 @@ This is currently demonstrating an integration with a third party tool - Learnos
 - Redux
 - TypeScript
 - Redux-connected-router (extends React Router)
+- Storybook
+- Axios
+- CSS Modules 
 - ESLint
 - Prettier
 - Jest
 
+
+
 ## Up Next
-Serve it up all static like. Netlify?
+- Update example to include multiple routes and components
+- Show third party integration working (Learnosity), or remove
+- Determine if CSS Modules are the best fit, or move toward `styled-components` or similar
 
 ## Running locally
 
@@ -22,8 +29,19 @@ Serve it up all static like. Netlify?
 2. Ye olde`npm start`
 3. Load up `localhost:3000`
 
-## Approach and project structure
-**TODO** More on project structure and approach to building
+
+
+## Storybook
+This project uses Storybook for a component library. Its suggested to build Storybook components alongside React components in the same directory. Take a look at `/src/app/button/stories.tsx`. 
+
+To run via npm:
+
+```
+npm run storybook
+```
+
+
+When when finished building should point to `localhost:6006/`.
 
 ## Linting and code standards
 Should be supported by most IDE's to offer in code linting. For example: https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint.
